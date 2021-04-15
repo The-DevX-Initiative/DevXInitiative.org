@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="37px" viewBox="0 0 36 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>medium.icon.ellipses</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.602607195">
+        <g id="DevX-LP-blue" transform="translate(-1218.000000, -52.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="medium.icon.ellipses" transform="translate(1218.000000, 52.440678)">
+                <g id="Group-3" transform="translate(0.000000, 8.000000)">
+                    <circle id="Oval" cx="10" cy="10" r="10"></circle>
+                    <ellipse id="Oval" cx="25.92" cy="10.02" rx="5" ry="9.5"></ellipse>
+                    <ellipse id="Oval" cx="33.64" cy="10.04" rx="1.76" ry="8.48"></ellipse>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
