@@ -1887,7 +1887,7 @@ a {
   margin-top: 0px;
   margin-right: 0px;
   padding-top: 100px;
-  padding-bottom: 80px;
+  padding-bottom: 60px;
   background-color: #191b1e;
   background-image: radial-gradient(circle closest-corner at 0% 50%, rgba(0, 64, 159, 0.3) 10%, #191b1e);
   font-family: 'Nexa Regular', sans-serif;
@@ -1962,6 +1962,7 @@ a {
 
 .container-8 {
   max-width: 1020px;
+  padding-bottom: 40px;
   -o-object-fit: fill;
   object-fit: fill;
   -o-object-position: 50% 50%;
@@ -2060,8 +2061,8 @@ a {
 }
 
 .section-3 {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: #191b1e;
   background-image: radial-gradient(circle closest-corner at 100% 50%, rgba(83, 213, 245, 0.15), #191b1e);
   font-family: 'Nexa Regular', sans-serif;
@@ -2446,6 +2447,32 @@ a {
   font-weight: 700;
 }
 
+.section-5 {
+  background-color: #191b1e;
+}
+
+.section-5.roadmap-section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-image: url('../images/devX-roadmap-site-desktop.jpg'), radial-gradient(circle closest-corner at 0% 50%, rgba(11, 131, 215, 0.19), #191b1e);
+  background-position: 50% 0%, 0px 0px;
+  background-size: cover, auto;
+}
+
+.roadmap-mobile {
+  display: none;
+  margin-top: 30px;
+  padding-bottom: 80px;
+}
+
+.roadmap-title {
+  margin-bottom: 40px;
+}
+
+.roadmap-title.title-descktop {
+  padding-bottom: 20px;
+}
+
 @media screen and (max-width: 991px) {
   h2 {
     font-size: 34px;
@@ -2684,7 +2711,8 @@ a {
   }
 
   .container-8 {
-    max-width: 100%;
+    max-width: 90%;
+    padding-left: 0px;
   }
 
   .columns-3 {
@@ -2863,6 +2891,15 @@ a {
   .link-block-4 {
     padding-right: 30px;
     line-height: 16px;
+  }
+
+  .section-5 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .roadmap-mobile {
+    padding-bottom: 0px;
   }
 }
 
@@ -3070,7 +3107,9 @@ a {
   }
 
   .container-4 {
-    max-width: 100%;
+    max-width: 90%;
+    padding-right: 40px;
+    padding-left: 40px;
   }
 
   .heading-4 {
@@ -3203,7 +3242,8 @@ a {
   .columns-3 {
     width: 100%;
     max-width: 100%;
-    padding-right: 40px;
+    padding-right: 0px;
+    padding-left: 0px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -3234,7 +3274,9 @@ a {
   }
 
   .philosophy {
-    padding-right: 40px;
+    margin-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
   }
 
   .image-14 {
@@ -3247,6 +3289,7 @@ a {
 
   .column-8 {
     margin-top: 20px;
+    padding-left: 0px;
   }
 
   .link-block-2 {
@@ -3336,6 +3379,11 @@ a {
     display: block;
   }
 
+  .upcoming-events-title {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+
   .bold-text-5 {
     font-size: 16px;
   }
@@ -3389,6 +3437,28 @@ a {
 
   .italic-text-10 {
     font-size: 16px;
+  }
+
+  .section-5 {
+    padding-bottom: 70px;
+  }
+
+  .section-5.roadmap-section {
+    padding-bottom: 40px;
+  }
+
+  .roadmap-mobile {
+    display: block;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .roadmap-desktop {
+    display: none;
+  }
+
+  .roadmap-title {
+    margin-bottom: 60px;
   }
 }
 
@@ -3545,7 +3615,9 @@ a {
   }
 
   .container-4 {
-    margin-top: 60px;
+    margin-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
   }
 
   .heading-4 {
@@ -3779,8 +3851,12 @@ a {
     line-height: 34px;
   }
 
+  .primary-text {
+    font-size: 14px;
+  }
+
   .philosophy {
-    padding: 30px 20px;
+    padding: 30px 0px;
   }
 
   .div-block-23 {
@@ -3843,6 +3919,20 @@ a {
 
   .text-block-7 {
     padding-bottom: 20px;
+  }
+
+  .upcoming-events-title.roadmap-mobile-title {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .section-5 {
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+
+  .roadmap-title {
+    margin-bottom: 40px;
   }
 }
 
